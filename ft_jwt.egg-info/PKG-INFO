@@ -1,7 +1,8 @@
 Metadata-Version: 2.1
 Name: ft_jwt
-Version: 0.0.4
+Version: 0.0.5
 Summary: A Python implementation of JSON Web Tokens (JWT) for authentication and authorization using a symmetric secret key and HMAC-SHA256.
+Home-page: https://github.com/minthe/ft_jwt
 Author: vfuhlenb
 Author-email: minh.tee@gmail.com
 Classifier: Programming Language :: Python :: 3
