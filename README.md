@@ -6,7 +6,7 @@ A Python implementation of JSON Web Tokens (JWT) for authentication and authoriz
 
 - Generate JWT tokens with customizable expiration times
 - Validate JWT tokens and verify their integrity using a symmetric secret key and HMAC-SHA256
-- Extract user information (such as user ID) from JWT tokens
+- Extract user information (such as user ID 'sub') from JWT tokens
 
 ## Installation
 
