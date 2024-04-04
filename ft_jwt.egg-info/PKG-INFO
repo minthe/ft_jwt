@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ft_jwt
-Version: 0.0.1
+Version: 0.0.2
 Summary: A Python implementation of JSON Web Tokens (JWT) for authentication and authorization using a symmetric secret key and HMAC-SHA256.
 Author: vfuhlenb
 Author-email: minh.tee@gmail.com
@@ -31,7 +31,6 @@ You can install the package via pip:
 
 ```python
 from my_jwt import JWT
-```
 
 # Create a JWT instance with your secret key
 secret_key = 'your_secret_key'
@@ -51,6 +50,7 @@ else:
 # Get the user ID from a token
 user_id = jwt.getUserId(token)
 print(f'User ID: {user_id}')
+```
 
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request.

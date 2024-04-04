@@ -12,20 +12,20 @@ A Python implementation of JSON Web Tokens (JWT) for authentication and authoriz
 
 You can install the package via pip:
 
-```pip install my_jwt```
+```pip install ft_jwt```
 
 ## Usage
 
 ```python
-from my_jwt import JWT
+from ft_jwt import JWT
 
 # Create a JWT instance with your secret key
 secret_key = 'your_secret_key'
 jwt = JWT(secret_key)
 
 # Generate a token for a user
-user_id = 'user123'
-token = jwt.createToken(user_id)
+sub = '1'
+token = jwt.createToken(sub)
 
 # Validate a token
 is_valid, message = jwt.validateToken(token)
@@ -36,7 +36,7 @@ else:
 
 # Get the user ID from a token
 user_id = jwt.getUserId(token)
-print(f'User ID: {user_id}')
+print(f'User ID: {sub}')
 ```
 
 # Contributing
